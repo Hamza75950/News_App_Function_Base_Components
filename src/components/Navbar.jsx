@@ -8,7 +8,7 @@ export default function Navbar(props)  {
     return (
       <div>
         {/* navbar navbar-expand-lg bg-body-tertiary */}
-        <nav className="navbar  navbar-dark bg-dark navbar-expand-lg">
+        <nav className="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
           <div className="container-fluid">
             <Link className="navbar-brand" to={`/`}>
               News App
