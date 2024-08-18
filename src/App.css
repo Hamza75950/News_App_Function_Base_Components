@@ -1,0 +1,14 @@
+.card-title, .card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-title {
+  -webkit-line-clamp: 2; /* Limit title to 2 lines */
+}
+
+.card-text {
+  -webkit-line-clamp: 3; /* Limit description to 3 lines */
+}
